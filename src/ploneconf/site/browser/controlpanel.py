@@ -34,7 +34,7 @@ VOCABULARY_SCHEMA = json.dumps(
 
 
 class IPloneconfSettings(Interface):
-
+    # Esto es un comentario
     talk_submission_open = schema.Bool(
         title="Allow talk submission",
         description="Allow the submission of talks for anonymous user",
@@ -54,6 +54,7 @@ class IPloneconfSettings(Interface):
                     "titles": {
                         "en": "Talk",
                         "de": "Vortrag",
+                        "es": "Platica",
                     },
                 },
                 {
@@ -61,6 +62,7 @@ class IPloneconfSettings(Interface):
                     "titles": {
                         "en": "Lightning-Talk",
                         "de": "Lightning-Talk",
+                        "es": "Platica-Relampago",
                     },
                 },
                 {
@@ -68,6 +70,7 @@ class IPloneconfSettings(Interface):
                     "titles": {
                         "en": "Keynote",
                         "de": "Keynote",
+                        "es": "Keynote",
                     },
                 },
             ]
@@ -93,6 +96,7 @@ class IPloneconfSettings(Interface):
                     "titles": {
                         "en": "Beginner",
                         "de": "Anfänger",
+                        "es": "Principiante",
                     },
                 },
                 {
@@ -100,6 +104,7 @@ class IPloneconfSettings(Interface):
                     "titles": {
                         "en": "Advanced",
                         "de": "Fortgeschrittene",
+                        "es": "Avanzado",
                     },
                 },
                 {
@@ -107,6 +112,7 @@ class IPloneconfSettings(Interface):
                     "titles": {
                         "en": "Professional",
                         "de": "Profi",
+                        "es": "Profesional",
                     },
                 },
             ]
@@ -132,6 +138,7 @@ class IPloneconfSettings(Interface):
                     "titles": {
                         "en": "101",
                         "de": "101",
+                        "es": "101",
                     },
                 },
                 {
@@ -139,6 +146,7 @@ class IPloneconfSettings(Interface):
                     "titles": {
                         "en": "201",
                         "de": "201",
+                        "es": "201",
                     },
                 },
                 {
@@ -146,6 +154,7 @@ class IPloneconfSettings(Interface):
                     "titles": {
                         "en": "Auditorium",
                         "de": "Auditorium",
+                        "es": "Auditorio",
                     },
                 },
             ]
